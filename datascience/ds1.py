@@ -48,3 +48,11 @@ print(text.startswith(" "))  # return true or false, if the start of string is.
 # return true or false, if it does have a specific word in string
 print("wosrl" in text)
 print("---------------")
+
+# 6. f-Strings (String Formatting)
+
+age = 22
+gender = "Male"
+
+print(
+    f"Hi my name is {name} and I'm {age} years old and my gender is {gender}")
