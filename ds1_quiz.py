@@ -36,3 +36,7 @@ Instructions:
 - The first 6 letters only
 - The text with "fun" replaced by "awesome"
 """
+motto = "Python is fun!"
+print(motto.upper())
+print(motto[0:7])
+print(motto.replace("fun", "awesome"))
