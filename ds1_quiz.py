@@ -16,8 +16,17 @@ Instructions:
 1. Ask the user for two numbers (using input()).
 2. Print their sum, difference, product, and average
 """
+firstnum = int(input("Enter first number: "))
+secondnum = int(input("Enter second number: "))
+sum = firstnum + secondnum
+diff = firstnum - secondnum
+prod = firstnum * secondnum
+ave = float((firstnum + secondnum) / 2)
 
-
+print(f"Sum: {sum}")
+print(f"Difference: {diff}")
+print(f"Product: {prod}")
+print(f"Average: {ave}")
 """
 Challenge 3: String Magic
 Instructions:
